@@ -1,121 +1,202 @@
-# Jaipur360 - Tourism Analytics
+# Jaipur360 - Tourism Analytics 
 
-An end-to-end SQL Server and Power BI project analyzing Jaipur's hospitality and tourism landscape. The project focuses on hotel pricing, customer reviews, tourist attractions, and category-wise tourism trends through data modeling, SQL analysis, and interactive dashboards.
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-Data%20Analysis-blue?style=for-the-badge)
+![Data Analytics](https://img.shields.io/badge/Data%20Analytics-Project-success?style=for-the-badge)
+![Dashboard](https://img.shields.io/badge/Dashboard-Interactive-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
----
-
-## Dashboard Preview
-
-### Page 1 - Hospitality Overview
-
-![General Summary](Screenshots/Page_1.png)
-
-### Page 2 - Budget-Based Hotel Explorer
-
-![Hotel Explorer](Screenshots/Page_2.png)
-
-### Page 3 - Tourism & Attractions Analysis
-
-![Heritage_and_Attractions_Insights](Screenshots/Page_3.png)
+> End-to-End SQL Server & Power BI Project analyzing Jaipur's tourism and hospitality ecosystem through hotel pricing, customer reviews, tourist attractions, and category-wise tourism trends.
 
 ---
 
 ## Project Overview
 
-This project combines SQL Server for data analysis and Power BI for business intelligence reporting.
+Jaipur360 is a Business Intelligence project designed to transform raw tourism and hospitality data into actionable insights using SQL Server and Power BI.
 
-### Dataset Summary
+The project explores:
 
-| Metric              | Value  |
-| ------------------- | ------ |
-| Total Hotels        | 254    |
-| Total Attractions   | 71     |
+- Hotel pricing trends
+- Customer review patterns
+- Tourist attraction distribution
+- Tourism category analysis
+- Hospitality performance metrics
+
+The final solution combines data cleaning, SQL-based analytics, data modeling, KPI development, and interactive Power BI dashboards to support data-driven decision-making.
+
+---
+
+## Dashboard Preview
+
+### Hospitality Overview
+
+![Hospitality Overview](Screenshots/Page_1.png)
+
+### Budget-Based Hotel Explorer
+
+![Budget Explorer](Screenshots/Page_2.png)
+
+### Tourism & Attractions Analysis
+
+![Tourism Insights](Screenshots/Page_3.png)
+
+---
+
+## Project Architecture
+
+```text
+Raw Dataset
+     │
+     ▼
+SQL Server
+(Data Cleaning & Analysis)
+     │
+     ▼
+Power BI
+(Data Modeling + DAX)
+     │
+     ▼
+Interactive Dashboards
+     │
+     ▼
+Business Insights
+```
+
+---
+
+## Dataset Summary
+
+| Metric | Value |
+|----------|----------|
+| Total Hotels | 254 |
+| Total Attractions | 71 |
 | Average Hotel Price | ₹2.98K |
-| Total Reviews       | 137K   |
+| Total Reviews | 137K |
 
 ---
 
-## Tools & Technologies
+## Tech Stack
 
-* Microsoft SQL Server
-* SQL Server Management Studio (SSMS)
-* Power BI
-* DAX
-* Data Cleaning
-* Data Modeling
-* Data Visualization
-* Data Transformation
-* Dashboard Development
+| Category | Tools |
+|-----------|---------|
+| Database | SQL Server |
+| Query Tool | SSMS |
+| Visualization | Power BI |
+| Analytics | SQL, DAX |
+| Data Preparation | Data Cleaning & Transformation |
+| Reporting | Interactive Dashboards |
 
 ---
 
-## SQL Concepts Used
+## SQL Skills Applied
 
-* Filtering & Sorting
-* Aggregate Functions
-* GROUP BY & HAVING
-* CASE Statements
-* JOINS
-* Subqueries
-* Common Table Expressions (CTEs)
-* Window Functions
-* Ranking Functions
+This project demonstrates practical usage of:
+
+- Filtering & Sorting
+- Aggregate Functions
+- GROUP BY & HAVING
+- CASE Statements
+- INNER & LEFT JOINS
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking Functions
 
 ---
 
 ## Data Processing & Analysis
 
-* Cleaned and transformed tourism and hospitality datasets using SQL Server.
-* Applied CASE statements and aggregate functions to generate business KPIs and pricing segments.
-* Used JOINS to combine hotel, attraction, and category datasets for analysis.
-* Implemented Subqueries, CTEs, and Window Functions to uncover tourism and hospitality trends.
-* Conducted exploratory data analysis (EDA) on hotel pricing, customer reviews, and attraction categories.
-* Developed analytical SQL queries and Power BI dashboards to support business reporting and decision-making.
+### Data Preparation
+
+- Cleaned and validated tourism and hospitality datasets.
+- Handled missing and inconsistent records.
+- Standardized hotel and attraction information.
+
+### SQL Analysis
+
+- Generated business KPIs using aggregate functions.
+- Created pricing segments using CASE statements.
+- Performed multi-table analysis using JOINS.
+- Utilized CTEs and Window Functions for advanced reporting.
+- Conducted exploratory analysis on reviews, pricing, and attraction categories.
+
+### Power BI Development
+
+- Built a relational data model for reporting and analysis.
+- Created interactive reports using slicers and filters.
+- Developed KPI cards and business metrics using DAX.
+- Designed intuitive dashboard layouts for enhanced user experience.
 
 ---
 
-## Dashboard Features
+# Dashboard Features
 
-### Page 1 - Hospitality Overview
+## Page 1 - Hospitality Overview
 
-* Hotel KPIs
-* Top 10 Most Reviewed Hotels
-* Top 10 Most Expensive Hotels
-* Hotel Category Filtering
+### Key Components
 
-### Page 2 - Budget Explorer
-
-* Interactive Hotel Map
-* Budget Range Filter
-* Hotel Category Analysis
-* Most Expensive Hotel
-* Most Popular Hotel
-* Best Budget Hotel
-
-### Page 3 - Tourism Insights
-
-* Attraction Distribution Map
-* Category-wise Attraction Analysis
-* Tourism Summary
-* Key Tourism Insights
+- Hospitality KPI Summary
+- Top 10 Most Reviewed Hotels
+- Top 10 Most Expensive Hotels
+- Hotel Category Filter
+- Review & Pricing Insights
 
 ---
 
-## Key Findings
+## Page 2 - Budget Hotel Explorer
+
+### Key Components
+
+- Interactive Hotel Map
+- Budget Range Analysis
+- Category-wise Hotel Distribution
+- Most Expensive Hotel
+- Most Popular Hotel
+- Best Budget Hotel
+
+---
+
+## Page 3 - Tourism & Attractions Analysis
+
+### Key Components
+
+- Attraction Distribution Map
+- Category-wise Attraction Breakdown
+- Tourism Summary KPIs
+- Tourism Insight Panel
+
+---
+
+## Key Business Insights
 
 ### Hospitality Insights
 
-* Umaid Farm Resort is the most expensive hotel in the dataset, with an average price of ₹1,12,365.
-* ITC Rajputana records the highest number of customer reviews (6.2K).
-* Holiday Inn and Hilton Jaipur also show strong customer engagement with over 4K reviews each.
-* Four Points by Sheraton offers strong value within the budget-friendly segment.
+- Umaid Farm Resort is the most expensive hotel in the dataset with an average price of ₹1,12,365.
+- ITC Rajputana has the highest customer engagement with approximately 6.2K reviews.
+- Holiday Inn Jaipur and Hilton Jaipur also maintain strong customer visibility with more than 4K reviews each.
+- Four Points by Sheraton provides strong value within the budget-friendly hotel segment.
 
 ### Tourism Insights
 
-* Religious attractions represent the largest attraction category (23.94%).
-* Scenic destinations account for 22.54% of all attractions.
-* Tourist attractions are concentrated around central Jaipur.
-* Jaipur offers a balanced mix of heritage, cultural, religious, and scenic destinations.
+- Religious attractions contribute 23.94% of all attractions, making them the largest tourism category.
+- Scenic attractions account for 22.54% of total attractions.
+- Tourist destinations are primarily concentrated around central Jaipur.
+- Jaipur offers a balanced tourism ecosystem across heritage, cultural, scenic, and religious experiences.
+
+---
+
+## Learning Outcomes
+
+Through this project, I strengthened my understanding of:
+
+- Writing analytical SQL queries for business problems
+- Data cleaning and transformation workflows
+- Building relational data models
+- Developing KPIs and DAX measures
+- Dashboard design best practices
+- Business storytelling through data visualization
+- Converting raw data into actionable insights
 
 ---
 
@@ -125,27 +206,58 @@ This project combines SQL Server for data analysis and Power BI for business int
 Jaipur360-Tourism-Analytics
 │
 ├── Dashboard
+│   └── Power BI Files
+│
 ├── Dataset
+│   └── Raw & Processed Data
+│
 ├── SQL Queries
-└── Screenshots
+│   └── Analysis Scripts
+│
+├── Screenshots
+│   └── Dashboard Images
+│
+└── README.md
 ```
 
 ---
 
 ## Skills Demonstrated
 
-* SQL Development
-* Data Analysis
-* Data Modeling
-* Business Intelligence
-* Dashboard Design
-* KPI Development
-* Data Visualization
-* Insight Generation
+### SQL & Database
+
+- SQL Development
+- Query Optimization
+- Data Exploration
+- Data Cleaning
+
+### Analytics
+
+- Exploratory Data Analysis (EDA)
+- KPI Development
+- Business Analysis
+- Insight Generation
+
+### Business Intelligence
+
+- Power BI
+- Data Modeling
+- DAX
+- Dashboard Development
+- Data Visualization
 
 ---
 
-## Author
+## 👨‍💻 Author
 
-Kar4mveer Singh
-LinkedIn: https://www.linkedin.com/in/kar4mveer/
+**Karamveer Singh**
+
+🔗 LinkedIn: [Kar4mveer Singh](https://www.linkedin.com/in/kar4mveer/)
+
+💻 GitHub: [kar4mveer](https://github.com/kar4mveer)
+
+📊 Aspiring Data Analyst | SQL | Power BI | Python | Business Intelligence
+
+---
+
+⭐ If you found this project useful, consider starring the repository.
